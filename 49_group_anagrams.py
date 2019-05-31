@@ -5,7 +5,7 @@
 from collections import defaultdict
 
 class SolutionA:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+    def groupAnagrams(self, strs):
         groups = defaultdict(list)
 
         for s in strs:
@@ -23,7 +23,7 @@ class SolutionA:
 from collections import defaultdict, Counter
 
 class SolutionB:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+    def groupAnagrams(self, strs):
         groups = defaultdict(list)
 
         for s in strs:
