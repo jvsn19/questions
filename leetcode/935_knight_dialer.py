@@ -32,4 +32,3 @@ class Solution:
             return memo[size_num][curr]
         
         return sum([helper(num) for num in range(0, 10)]) % MOD
-            
